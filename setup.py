@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("../rv2ddd/README.md", "r") as readme_file:
+with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = ["ipython>=3.8", "scipy>=1.7.3"]
