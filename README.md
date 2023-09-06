@@ -1,2 +1,3 @@
 # rv2dd
-bivariate discrete distribution based on scipy
+bivariate discrete distribution  plus conditional discrete distribution based on scipy
+
