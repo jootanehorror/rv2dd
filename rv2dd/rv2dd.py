@@ -9,7 +9,7 @@ class rv_two_dimensional_discrete():
         """
         :param value: Two-dimensional array of values and corresponding probabilities.
         :param conditional: Conditional function that takes a two-dimensional value and returns a boolean value.
-        :param conditional_type:Condition on x or y
+        :param conditional_type:Condition on 'X' or 'Y'
         example lambda x: x[0] + x[1] > 0
         :return: None
         """
