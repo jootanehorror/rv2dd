@@ -77,11 +77,7 @@ class rv_two_dimensional_discrete():
         :param size: Sample size.
         :return: Random values from the two-dimensional discrete distribution.
         """
-        voc = []
-        indexes = self.XY.rvs(size=size)
-        for i in indexes:
-            voc.append(self.values[i])
-        return np.array(voc)
+        return self.values(self.XY.rvs(size=size))
 
     def cdf(self, x: Optional[Union[int, float]] = None, y: Optional[Union[int, float]] = None,
             conditional: bool = False) -> np.float64:
